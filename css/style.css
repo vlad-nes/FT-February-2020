@@ -57,6 +57,23 @@
   transform: rotate(45deg) translateX(-25%);
 }
 
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.links, .customer {
+    display: flex;
+    flex-direction: column;
+}
+
+.q {
+    display: flex;
+    flex-direction: row;
+}
+
+
 @media (min-width: 768px) {
     body{
         background-color: blue;
@@ -68,3 +85,6 @@
         background-color: purple;
     }
 }
+
+
+
